@@ -1,0 +1,5 @@
+Model Training Results for LightCCF:
+Best Recall Epoch: 16
+Best Recall: 0.07025121136531379
+Best NDCG: 0.05817388896132174
+File created at: 20251211105230

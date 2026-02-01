@@ -1,0 +1,21 @@
+2025-01-06 19:38:59,135 - --------------------------------------------------
+2025-01-06 19:38:59,135 - Namespace(GCN_layer=1, alpha=2, beta=0.1, cuda=True, dataset='douban', dataset_path='./dataset/', dataset_type='.txt', early_stop=10, embedding_size=64, gamma=2.5, gpu=0, learn_rate=0.001, log='None', seed=2024, seed_start=False, sim_item=2, sparsity_test=0, t=2.0, test_batch_size=200, test_frequency=1, top_K='[10, 20, 30, 40, 50]', train_batch_size=2048, train_epoch=300)
+2025-01-06 19:39:01,609 - SUAU(
+  (activation): Sigmoid()
+  (user_embedding): Embedding(13025, 64)
+  (item_embedding): Embedding(22348, 64)
+  (MLP): Linear(in_features=64, out_features=64, bias=True)
+)
+2025-01-06 19:39:01,610 - Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.001
+    maximize: False
+    weight_decay: 0
+)
